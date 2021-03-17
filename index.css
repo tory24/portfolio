@@ -6,6 +6,7 @@ html, body, div, a, li, ul, nav, main, section, #page-wrapper {
   
 html {
     scroll-padding-top: 42px;
+    scroll-behavior: smooth;
 }
 
 body {
