@@ -9,27 +9,42 @@
 
     <body>
         <div id="page-wrapper">
+            <!-- Navbar-->
             <ul id="navbar">
-              <li><a href="#welcome-section">About</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a id="profile-link" href="#contact">Contact</a></li>
+              <a href="#welcome-section" alt="Link to top of page"><li>Home</li></a>
+              <a href="#aboutme-section" alt="Link to about me section"><li>About</li></a>
+              <a href="#projects" alt="Link to projects section"><li>Projects</li></a>
+              <a href="#contact" alt="Link to contact section"><li>Contact</li></a>
             </ul> 
-            
+
+            <!-- Welcome Section-->
             <div id="welcome-section">
               <div class="name">
+                <a href="#aboutme-section"><img id="selfie" src="https://raw.githubusercontent.com/tory24/portfolio/main/images/gypsy.png" alt="A photo of a cute golden retriever"></a>
                 <h1>Hey, my name is Tory</h1>
                 <p><i>And I'm an aspiring self-taught developer, proficient in JavaScript, HTML & CSS.</i></p>
               </div>
             </div>
+
+            <!-- About Me Section-->
+            <div id="aboutme-section">
+              <img id="desk-img">
+              
+              <div id="aboutme-text">
+                <h2>A Bit About Me</h2>
+                <p>After spending time studying Human Sciences & before that a bit of civil engineering at University, I soon found an interest in programming. Something I initially thought was impossible for someone like myself.<br>
+                Once I started, I haven't stopped, I love the constant learning process & haven't been this excited about learning...since well...ever.
+                </p>
+              </div>
+            </div>
             
-          
-           
+            <!-- Projects Section-->
             <div id="projects">
               <div class="projects-content">
                 
                 <h1>My Codepen Projects</h1>
+                
                 <div id="tiles">
-          
                   <div class="project-tile">
                     <img src="https://raw.githubusercontent.com/tory24/100Days-of-code/master/images/markdown.gif" class="project-img"/>
                     <a href="https://codepen.io/tory24/full/ExyqGpg" target="_blank"><div class="overlay">
@@ -88,26 +103,30 @@
               </div>
             </div>
             
-            
+            <!-- Contact Section-->
             <div id="contact">
               <div class="contact-content">
-                <h1>Hey, if you're made it this far,<br>then you might be interested!</h1>
-                <p>So check out my socials below, but first,<br>how do you like your coffee?</p>
-                <div class="social">
-                  <a id="profile-link" class="fab fa-github fa-5x grow" target="_blank" href="https://github.com/tory24"></a>
-                  <a id="linkedin" class="fab fa-linkedin fa-5x grow" href="https://www.linkedin.com/in/tory-moscaritolo/" target="_blank"></a>
-                  <a id="codepen" class="fab fa-codepen fa-5x grow" href="https://codepen.io/tory24" target="_blank"></a>
-                  <a id="fcc" class="fab fa-free-code-camp fa-5x grow" href="https://www.freecodecamp.org/torym" target="_blank"></a>
-                  <a id="email" class="fas fa-envelope fa-5x grow" href="mailto:torymoscaritolo+portfolio@gmail.com" target="_blank"></a>
+                <div class="width">
+                  <h2>Hey, if you're made it this far,<br>then you might be interested!</h2>
+                  <p>So check out my socials below,<br>I look forward to meeting you!</p>
+          
+                  <div class="social">
+                    <a id="github" class="fab fa-github fa-5x grow" target="_blank" href="https://github.com/tory24"></a>
+                    <a id="linkedin" class="fab fa-linkedin fa-5x grow" href="https://www.linkedin.com/in/tory-moscaritolo/" target="_blank"></a>
+                    <a id="codepen" class="fab fa-codepen fa-5x grow" href="https://codepen.io/tory24" target="_blank"></a>
+                    <a id="fcc" class="fab fa-free-code-camp fa-5x grow" href="https://www.freecodecamp.org/torym" target="_blank"></a>
+                    <a id="email" class="fas fa-envelope fa-5x grow" href="mailto:torymoscaritolo+portfolio@gmail.com" target="_blank"></a>
+                  </div>
                 </div>
               </div>
             </div>
         </div>
     </body>
-            
+        
+    <!-- Footer-->
     <footer>
         <div id="footer">
-            <p>&copy; Tory Moscaritolo</p>
+            <p aria-label="website creator">&copy; Tory Moscaritolo 2021</p>
         </div>
     </footer>
 </html>
