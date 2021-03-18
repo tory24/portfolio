@@ -7,7 +7,7 @@ html, body, div, a, li, ul, nav, main, section, #page-wrapper {
 }
 
 html {
-  scroll-padding-top: 0px;
+  scroll-padding-top: 65px;
   scroll-behavior:smooth;
 }
 
@@ -88,6 +88,17 @@ p {
 }
 
 /*** About Me Section ***/
+#aboutme-section {
+  padding-top: 80px;
+  width: 100%;
+  text-align: center;
+}
+
+#desk-img {
+  display: block;
+  margin: 0 auto;
+}
+
 #aboutme-text {
   width: 100%;
   padding: 50px 0px 100px 0px;
@@ -150,7 +161,6 @@ p {
   right: 0;
   height: 100%;
   width: 100%;
-  transition: .6s ease;
   background-color: rgba(0,0,0,0.3);
 }
 
@@ -159,6 +169,7 @@ p {
   transform-origin: 50% 50%;
 }
 
+.overlay, .project-name { transition: .6s ease; }
 .project-tile:hover .overlay { opacity: 1; background-color: rgba(44,59,78,1);}
 .overlay:hover p { color: white; }
 
