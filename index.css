@@ -15,12 +15,21 @@ body {
   font-family: 'raleway', arial, sans-serif;
   font-size: 10px;
   color: rgba(44,59,78,1);
+  letter-spacing: 0.08em;
 }
 
 h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-size: 3.5em;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.7em;
+}
 
 /* Nav Bar */
 #navbar {
@@ -64,7 +73,7 @@ h1 {
   display: inline-block;
   vertical-align: center;
   line-height: normal;
-  width: 88%;
+  width: 80%;
 }
 
 .name p {
@@ -88,17 +97,11 @@ h1 {
   color: white;
 }
 
-#aboutme-text h2, .contact-content h2 {
-  font-size: 3.5em;
-  font-weight: 700;
-}
-
 #aboutme-text p {
-  width: 60%;
+  width: 750px;
   margin: 0 auto;
   font-size: 2em;
 }
-
 
 
 /*** Projects Page ***/
@@ -148,7 +151,7 @@ h1 {
   height: 100%;
   width: 100%;
   transition: .6s ease;
-  background-color: rgba(44,59,78,0.5);
+  background-color: rgba(0,0,0,0.3);
 }
 
 .project-tile:hover img {
@@ -216,6 +219,9 @@ footer {
 }
 
 @media all and (max-width: 1074px) {
+  #aboutme-text p {
+    width: 70%;
+  }
   .project-tile {
     height: 550px;
     width: 100%;
