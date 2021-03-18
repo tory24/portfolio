@@ -40,7 +40,7 @@ a {
     list-style: none;
     height: 60px;
     width: 100%;
-    background-color:transparent;
+    background-color:linear-gradient(90deg, rgba(44,59,78,1) 0%, rgba(27,42,61,1) 40%, rgba(0,24,54,1) 100%);
 }
 
 #navbar li {
