@@ -94,7 +94,6 @@ a {
 
 /*** About Me Section ***/
 #aboutme-section {
-  padding-top: 80px;
   width: 100%;
   text-align: center;
 }
@@ -198,7 +197,7 @@ a {
 #contact {
   height: auto;
   text-align: center;
-  margin: 300px 0px;
+  margin: 300px 0px 0px 0px;
   color: white
 }
 
