@@ -29,6 +29,11 @@ h2 {
 
 p {
   line-height: 1.7em;
+  font-size: 1.2rem
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Nav Bar */
@@ -120,6 +125,10 @@ p {
 /*** Projects Page ***/
 #projects {
   text-align: center;
+}
+
+#projects a:hover {
+  font-weight: 500;
 }
 
 .projects-content {
@@ -221,9 +230,17 @@ p {
 #email:hover { color: #4285F4; }
 
 footer {
-  text-align: right;
-  padding-right: 40px;
+  text-align: center;
+  height: 80px;
+  color: white;
+  background-color: rgba(44,59,78,1);
 }
+
+footer p {
+  padding-top: 30px;
+  font-size: 1.2em;
+}
+
 /* Media Queries */
 @media all and (max-width: 1604px) {
   .projects-content {
