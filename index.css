@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Reset Page */
-html, body, div, a, li, ul, nav, main, section, #page-wrapper {
+html, body, div, a, li, ul, nav, main, section, #page-wrapper, footer {
   margin: 0;
   padding: 0;
 }
 
 html {
-  scroll-padding-top: 65px;
+  scroll-padding-top: 61px;
   scroll-behavior:smooth;
 }
 
@@ -29,7 +29,7 @@ h2 {
 
 p {
   line-height: 1.7em;
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
 a {
@@ -48,7 +48,7 @@ a {
   list-style: none;
   height: 60px;
   width: 100%;
-  background-color: #2c3b4e;
+  background-color: rgba(44,59,78,1);
 }
 
 #navbar li {
@@ -58,7 +58,6 @@ a {
 }
 
 #navbar a {
-  text-decoration: none;
   font-size: 2.2em;
   font-weight: 500;
   line-height: 60px;
@@ -106,10 +105,8 @@ a {
 }
 
 #aboutme-text {
-  width: 100%;
   padding: 50px 0px 100px 0px;
   margin-bottom: 100px;
-  text-align: center;
   background-color: rgba(44,59,78,1);
   color: white;
 }
@@ -129,7 +126,6 @@ a {
 #projects a:hover {
   font-weight: 500;
 }
-
 .projects-content {
   max-width: 1600px;
   margin: 0 auto;
@@ -149,7 +145,7 @@ a {
 
 .project-tile {
   position: relative;
-  height: 550px;
+  height: 500px;
   width: 500px;
   margin: 15px;
   transition: all .3s ease-in-out;
@@ -171,6 +167,7 @@ a {
   right: 0;
   height: 100%;
   width: 100%;
+  transition: .6s ease;
   background-color: rgba(0,0,0,0.3);
 }
 
@@ -179,12 +176,12 @@ a {
   transform-origin: 50% 50%;
 }
 
-.overlay, .project-name { transition: .6s ease; }
 .project-tile:hover .overlay { opacity: 1; background-color: rgba(44,59,78,1);}
-.overlay:hover p { color: white; }
+.overlay:hover .project-name { color: rgba(255,255,255,1); }
 
 .project-name {
   color: transparent;
+  transition: .6s ease;
   font-size: 2em;
   position: absolute;
   top: 50%;
@@ -210,14 +207,18 @@ a {
   background:rgba(44,59,78,1);
 }
 
+#contact .width {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #contact p {
-  font-size: 1.2rem;
-  padding-bottom: 40px;
+  padding: 30px 0px 40px 0px;
 }
 
 /* Socials */
 .social a {
-  padding: 0px 20px;
+  padding: 15px 20px;
   text-decoration: none;
   color: rgba(255,255,255,0.8);
   transition: all .3s ease-in-out;
@@ -229,6 +230,7 @@ a {
 #email:hover { color: #4285F4; }
 
 footer {
+  padding: 1px;
   text-align: center;
   height: 80px;
   color: white;
@@ -255,7 +257,7 @@ footer p {
     width: 70%;
   }
   .project-tile {
-    height: 550px;
+    height: auto;
     width: 100%;
   }
   .projects-content {
@@ -270,10 +272,6 @@ footer p {
   #navbar {
     justify-content: space-around;
   }
-  #contact .width {
-    width: 80%;
-    margin: 0 auto;
-  }
 }
 
 @media all and (max-width: 600px) {
@@ -284,7 +282,6 @@ footer p {
     width: 100%;
   }
   .social a {
-    padding-top: 30px;
     width: 70%;
   }
 }
