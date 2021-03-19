@@ -107,6 +107,7 @@ a {
 #desk-img {
   display: block;
   margin: -1px auto;
+  height: auto;
   width: 850px;
 }
 
