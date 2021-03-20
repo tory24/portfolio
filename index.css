@@ -48,7 +48,7 @@ a {
   position: fixed;
   
   list-style: none;
-  height: 60px;
+  height: 40px;
   width: 100%;
   background-color: rgba(44,59,78,1);
 }
@@ -60,9 +60,9 @@ a {
 }
 
 #navbar a {
-  font-size: 2.2em;
+  font-size: 1.7em;
   font-weight: 500;
-  line-height: 60px;
+  line-height: 40px;
 }
 
 #navbar li::before {
@@ -99,8 +99,8 @@ a {
 }
 
 #selfie {
-  margin-top: 100px;
-  width: 225px;
+  margin-top: 25vh;
+  width: 205px;
 }
 
 /*** About Me Section ***/
