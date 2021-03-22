@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Reset Page */
-html, body, div, a, li, ul, nav, main, section, #page-wrapper, footer {
+html, body, div, a, li, ul, nav, main, section, #page-wrapper, footer, p, img {
   margin: 0;
   padding: 0;
 }
@@ -35,6 +35,10 @@ p {
 
 a {
   text-decoration: none;
+}
+
+#aboutme-section, footer, #navbar li, #github:hover, #codepen:hover, #fcc:hover {
+  color: white;
 }
 
 /* Nav Bar */
@@ -106,7 +110,7 @@ a {
 /*** About Me Section ***/
 #desk-img {
   display: block;
-  margin: -1px auto;
+  margin: auto;
   width: 850px;
 }
 
@@ -114,7 +118,6 @@ a {
   padding: 50px 0px 100px 0px;
   margin-bottom: 100px;
   background-color: rgba(44,59,78,1);
-  color: white;
 }
 
 #aboutme-text p {
@@ -192,12 +195,11 @@ a {
 .project-tile:hover .overlay { opacity: 1; background-color: rgba(44,59,78,1);}
 .overlay:hover .project-name { color: rgba(255,255,255,1); }
 
-/** Footer **/
+/** Footer/Contact **/
 footer {
   background-color: rgba(44,59,78,1);
 }
 
-/*** Contact Page ***/
 #contact {
   margin: 300px 0px 0px 0px;
 }
@@ -227,13 +229,11 @@ footer {
 }
 
 .grow:hover { transform: scale(1.3); }
-#github:hover, #codepen:hover, #fcc:hover { color: white; }
 #linkedin:hover { color: #0072b1; }
 #email:hover { color: #4285F4; }
 
 #copyright {
   padding: 30px;
-  margin: 0;
   font-size: 1.2em;
 }
 
