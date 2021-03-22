@@ -282,6 +282,9 @@ footer {
   .projects-content {
     width: 100%;
   }
+  #contact {
+    margin: 150px 0px 0px 0px;
+  }
   .social a {
     width: 70%;
   }
