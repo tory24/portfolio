@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4.5em;
 }
 
 h2 {
@@ -30,7 +30,7 @@ h2 {
 
 p {
   line-height: 1.7em;
-  font-size: 1.2rem;
+  font-size: 2em;
 }
 
 a {
@@ -56,7 +56,7 @@ a {
 #navbar li {
   position: relative;
   color: white;
-  width: 120px;
+  width: 100px;
 }
 
 #navbar a {
@@ -95,7 +95,7 @@ a {
 
 .name p {
   color: rgba(219,88,111,0.9);
-  font-size: 1.5rem;
+  font-size: 2.4em;
 }
 
 #selfie {
@@ -107,7 +107,6 @@ a {
 #desk-img {
   display: block;
   margin: -1px auto;
-  height: auto;
   width: 850px;
 }
 
@@ -119,7 +118,7 @@ a {
 }
 
 #aboutme-text p {
-  width: 750px;
+  width: 850px;
   margin: 0 auto;
   font-size: 2em;
 }
@@ -152,6 +151,10 @@ a {
   margin: 15px;
   transition: all .3s ease-in-out;
   overflow: hidden;
+}
+
+.project-tile p {
+  font-size: 1em;
 }
 
 .project-img {
@@ -189,19 +192,21 @@ a {
 .project-tile:hover .overlay { opacity: 1; background-color: rgba(44,59,78,1);}
 .overlay:hover .project-name { color: rgba(255,255,255,1); }
 
+/** Footer **/
+footer {
+  background-color: rgba(44,59,78,1);
+}
+
 /*** Contact Page ***/
 #contact {
   margin: 300px 0px 0px 0px;
-  color: white
 }
 
 .contact-content {
   width: 100%;
-  padding: 80px 0px;
+  padding: 60px 0px;
   display: inline-block;
   vertical-align: center;
-  line-height: normal;
-  background:rgba(44,59,78,1);
 }
 
 #contact .width {
@@ -210,7 +215,7 @@ a {
 }
 
 #contact p {
-  padding: 30px 0px 40px 0px;
+  padding: 30px 0px;
 }
 
 /* Socials */
@@ -226,15 +231,9 @@ a {
 #linkedin:hover { color: #0072b1; }
 #email:hover { color: #4285F4; }
 
-footer {
-  padding: 1px;
-  height: 80px;
-  color: white;
-  background-color: rgba(44,59,78,1);
-}
-
-footer p {
-  padding-top: 30px;
+#copyright {
+  padding: 30px;
+  margin: 0;
   font-size: 1.2em;
 }
 
@@ -262,8 +261,14 @@ footer p {
 }
 
 @media all and (max-width: 800px) {
-  #projects h1 {
-    font-size: 2.2rem;
+  h1 {
+    font-size: 3.5em;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  p, #aboutme-text p, .name p {
+    font-size: 1.6em;
   }
   #navbar {
     justify-content: space-around;
