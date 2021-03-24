@@ -94,7 +94,7 @@ a {
   display: inline-block;
   vertical-align: center;
   line-height: normal;
-  width: 80%;
+  width: 75%;
 }
 
 .name p {
@@ -105,6 +105,7 @@ a {
 #selfie {
   margin-top: 25vh;
   width: 205px;
+  border-radius: 50%;
 }
 
 /*** About Me Section ***/
