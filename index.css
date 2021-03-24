@@ -106,6 +106,11 @@ a {
   margin-top: 25vh;
   width: 205px;
   border-radius: 50%;
+  transition: 230ms ease-in-out;
+}
+
+#selfie:hover {
+  transform: scale(1.1);
 }
 
 /*** About Me Section ***/
