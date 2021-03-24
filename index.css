@@ -112,7 +112,7 @@ a {
 #desk-img {
   display: block;
   margin: auto;
-  width: 850px;
+  width: 800px;
 }
 
 #aboutme-text {
@@ -289,7 +289,7 @@ footer {
 
 @media all and (max-width: 1074px) {
   #desk-img {
-    width: 80%;
+    width: 75%;
   }
   #aboutme-text p {
     width: 70%;
