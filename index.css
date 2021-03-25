@@ -4,11 +4,12 @@
 html, body, div, a, li, ul, nav, main, section, #page-wrapper, footer, p, img {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 html {
   scroll-padding-top: 61px;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
   text-align: center;
 }
 
@@ -33,24 +34,19 @@ p {
   font-size: 2em;
 }
 
-a {
-  text-decoration: none;
-}
-
 #navbar li, #aboutme-section, #aboutme-text a, #github:hover, #codepen:hover, #fcc:hover, footer {
   color: white;
 }
 
 /* Nav Bar */
 #navbar {
+  position: fixed;
   z-index: 99;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
   align-items: center;
-  
-  position: fixed;
-  
+
   list-style: none;
   height: 40px;
   width: 100%;
@@ -59,7 +55,6 @@ a {
 
 #navbar li {
   position: relative;
-  color: white;
   width: 100px;
 }
 
@@ -127,7 +122,7 @@ a {
 }
 
 #aboutme-text p {
-  width: 850px;
+  width: 900px;
   margin: 0 auto;
   font-size: 2em;
 }
@@ -140,6 +135,7 @@ a {
 #projects a:hover {
   font-weight: 500;
 }
+
 .projects-content {
   max-width: 1600px;
   margin: 0 auto;
@@ -165,12 +161,7 @@ a {
   overflow: hidden;
 }
 
-.project-tile p {
-  font-size: 1em;
-}
-
 .project-img {
-  display: block;
   width: 100%;
   height: 100%;
   transition: .4s ease;
@@ -185,20 +176,19 @@ a {
   background-color: rgba(0,0,0,0.2);
 }
 
-.overlay p {
-  color: transparent;
-  transition: .6s ease;
-  font-size: 2em;
+.project-name {
   position: absolute;
   top: 50%;
   left: 50%;
+
+  color: transparent;
+  font-size: 2em;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 
 .project-tile:hover img {
   transform: scale(1.2);
-  transform-origin: 50% 50%;
 }
 
 .project-tile:hover .overlay { opacity: 1; background-color: rgba(44,59,78,1);}
@@ -207,7 +197,7 @@ a {
 /** Footer/Contact **/
 footer {
   background-color: rgba(44,59,78,1);
-  margin: 300px 0px 0px 0px;
+  margin: 200px 0px 0px 0px;
   width: 100%;
 }
 
@@ -237,7 +227,6 @@ footer {
   font-size: 1.2em;
 }
 
-
 /** Spotify **/
 #spotify {
   position: fixed;
@@ -247,15 +236,14 @@ footer {
   width: 60px;
   height: 62px;
   overflow: hidden;
-  transition: width .4s, height .4s;
+  transition: width .5s, height .5s;
 }
 
 #spotify-img {
   z-index: 98;
   display: block;
   position: relative;
-  transition: all .0s ease;
-  transition-delay: .2s;
+  transition: all .1s ease;
   border-radius: 100%;
   width: 60px;
 }
@@ -265,7 +253,7 @@ footer {
   width: 50%;
   height: 50%;
   border-radius: 50%;
-  transition: border-radius .1s, transform .1s;
+  transition: all .1s ease-in-out;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
