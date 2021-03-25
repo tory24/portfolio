@@ -122,7 +122,7 @@ p {
 }
 
 #aboutme-text p {
-  width: 900px;
+  width: 930px;
   margin: 0 auto;
   font-size: 2em;
 }
@@ -243,7 +243,7 @@ footer {
   z-index: 98;
   display: block;
   position: relative;
-  transition: all .1s ease;
+  transition: all .1s ease-in-out;
   border-radius: 100%;
   width: 60px;
 }
@@ -253,7 +253,7 @@ footer {
   width: 50%;
   height: 50%;
   border-radius: 50%;
-  transition: all .1s ease-in-out;
+  transition: all .1s ease-in;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -289,6 +289,8 @@ footer {
   }
   #aboutme-text p {
     width: 75%;
+  }
+  #aboutme-text p, p, .name p {
     font-size: 1.6em;
   }
   .project-tile {
@@ -306,9 +308,6 @@ footer {
   }
   h2 {
     font-size: 3em;
-  }
-  p, .name p {
-    font-size: 1.6em;
   }
   #navbar {
     justify-content: space-around;
