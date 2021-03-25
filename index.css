@@ -146,6 +146,7 @@ p {
   display: flex;
   flex-flow: row wrap;
   height: 100%;
+  padding-top: 25px;
 }
 
 .project-tile, .project-img, .overlay {
