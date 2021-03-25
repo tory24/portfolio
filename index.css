@@ -37,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-#aboutme-section, footer, #navbar li, #github:hover, #codepen:hover, #fcc:hover {
+#navbar li, #aboutme-section, #aboutme-text a, #github:hover, #codepen:hover, #fcc:hover, footer {
   color: white;
 }
 
@@ -132,6 +132,9 @@ a {
   font-size: 2em;
 }
 
+#aboutme-text a:hover {
+  color: rgba(219,88,111,0.9);
+}
 
 /*** Projects Page ***/
 #projects a:hover {
@@ -297,7 +300,8 @@ footer {
     width: 75%;
   }
   #aboutme-text p {
-    width: 70%;
+    width: 75%;
+    font-size: 1.6em;
   }
   .project-tile {
     height: auto;
@@ -315,7 +319,7 @@ footer {
   h2 {
     font-size: 3em;
   }
-  p, #aboutme-text p, .name p {
+  p, .name p {
     font-size: 1.6em;
   }
   #navbar {
