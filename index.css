@@ -335,3 +335,19 @@ footer {
     width: 70%;
   }
 }
+
+/* Landscape Phone */
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
+                     #selfie {
+                       margin-top: 10vh;
+                       width: 100px;
+                     }
+                     #desk-img {
+                       width: 50%;
+                     }
+                     #navbar, #welcome-section, #aboutme-section, #projects, #contact {
+                       width: 100%;
+                     }
+}
