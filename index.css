@@ -350,4 +350,11 @@ footer {
                      #navbar, #welcome-section, #aboutme-section, #projects, #contact {
                        width: 100%;
                      }
+                     #aboutme-text p {
+                       width: 70%;
+                     }
+                     .projects-content {
+                       width: 70%;
+                     }
+
 }
