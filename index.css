@@ -346,6 +346,9 @@ footer {
   #navbar {
     justify-content: space-around;
   }
+  .down {
+    box-shadow: -6px 6px 2px rgba(44,59,78,1);
+  }
 }
 
 @media all and (max-width: 600px) {
